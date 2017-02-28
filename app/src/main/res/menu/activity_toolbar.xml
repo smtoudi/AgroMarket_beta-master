@@ -10,19 +10,11 @@
         android:id="@+id/action_create_account"
         android:title="@string/create_account"
         android:icon="@drawable/ic_person_add_white_24dp"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/action_create_account_2"
-        android:title="@string/create_account"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_send_email_2"
-        android:orderInCategory="100"
-        android:title="@string/send_email"
-        app:showAsAction="never" />
+
 </menu>
