@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_navig"
+        android:title="@string/nsvig"
+        android:icon="@drawable/ic_nav_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nav_add_frend"
+        android:title="@string/action_share_frend"
+        android:icon="@drawable/ic_menu_share"/>
+
+    <item
+        android:id="@+id/action_message"
+        android:title="@string/message"
+        android:icon="@drawable/ic_msg_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_my_ads"
+        android:title="@string/ads"
+        android:icon="@drawable/ic_ads_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_my_favprite"
+        android:title="@string/favprite"
+        android:icon="@drawable/ic_star_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add_ad"
+        android:title="@string/add_ad"
+        android:icon="@drawable/ic_add_ad_white_24dp"
+        app:showAsAction="always" />
+
+    <item android:title="@string/nav_category_other">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_white_24dp"
+                android:title="@string/action_settings" />
+
+        </menu>
+    </item>
+</menu>

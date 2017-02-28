@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/wegetables"
+            android:title="@string/wegetables"/>
+
+        <item
+            android:id="@+id/fruits"
+            android:title="@string/fruits"/>
+
+        <item
+            android:id="@+id/homemade_preserves"
+            android:title="@string/homemade_preserves"/>
+
+        <item
+            android:id="@+id/fish_meet"
+            android:title="@string/fish_meet"/>
+
+        <item
+            android:id="@+id/services"
+            android:title="@string/services"/>
+
+    </group>
+
+
+
+</menu>

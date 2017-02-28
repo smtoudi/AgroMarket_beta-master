@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AgroMarket</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- FRAGMENTY -->
+    <string name="wegetables">Warzywa</string>
+    <string name="fruits">Owoce</string>
+    <string name="homemade_preserves">Przetwory domowe</string>
+    <string name="fish_meet">Ryby i Mięso</string>
+    <string name="services">Usługi</string>
+    <string name="nav_open">Otwórz nawigację</string>
+    <string name="nav_close">Zamknij nawigację</string>
+    <string name="user_email">e-mail</string>
+    <string name="user_full_name">Imię</string>
+    <string name="some_action">\"Jakaś akcja</string>
+    <string name="undo">Cofnij</string>
+    <string name="email">Wyślij emial</string>
+    <string name="create_account">Załóż konto</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="send_email">Wyślij emial</string>
+    <string name="some_settings">Kiedyś będzie tutaj jakas akcja</string>
+    <string name="title_activity_nawigation">nawigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Login">Zaloguj się</string>
+    <string name="home">AgroMarket</string>
+    <string name="message">Wiadomości</string>
+    <string name="ads">Moje ogłoszenia</string>
+    <string name="favprite">Ulubione</string>
+    <string name="nsvig">W mojej okolicy</string>
+    <string name="add_ad">Dodaj ogłoszenie</string>
+    <string name="nav_category_other">Inne</string>
+    <string name="action_share_frend">Zaproś znajomych</string>
+
+</resources>
