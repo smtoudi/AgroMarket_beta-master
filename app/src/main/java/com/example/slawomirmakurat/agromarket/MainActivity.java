@@ -1,6 +1,7 @@
 package com.example.slawomirmakurat.agromarket;
 
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
@@ -21,6 +22,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.slawomirmakurat.agromarket.drawer.Action_my_ads;
+import com.example.slawomirmakurat.agromarket.drawer.Action_my_favorite;
+import com.example.slawomirmakurat.agromarket.drawer.Action_navig;
+import com.example.slawomirmakurat.agromarket.drawer.Lav;
+import com.example.slawomirmakurat.agromarket.drawer.Nav_add_frend;
+import com.example.slawomirmakurat.agromarket.drawer.Nav_settings;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -67,7 +74,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }).show();
             }
         });
-
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         // Poniższe 3 linijku kodu ustawiają "burger icon" w naszym ActionBar
@@ -138,29 +144,54 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected( MenuItem item) {
         int id = item.getItemId();
 
-        switch (id) {
-            case R.id.wegetables:
-                viewPager.setCurrentItem(0);
-                break;
-            case R.id.fruits:
-                viewPager.setCurrentItem(1);
-                break;
-            case R.id.homemade_preserves:
-                viewPager.setCurrentItem(2);
-                break;
-            case R.id.fish_meet:
-                viewPager.setCurrentItem(3);
-                break;
-            case R.id.services:
-                viewPager.setCurrentItem(4);
-                break;
+        if (id == R.id.action_home) {
+            Intent i = new  Intent(this, MainActivity.class);
+            startActivity(i);
         }
-        drawer.closeDrawer(GravityCompat.START);
+
+        if (id == R.id.action_navig) {
+            Intent i = new  Intent(this, Action_navig.class);
+            startActivity(i);
+        }
+
+        if (id == R.id.nav_add_frend) {
+            Intent i = new  Intent(this, Nav_add_frend.class);
+            startActivity(i);
+        }
+        if (id == R.id.action_message) {
+            Intent i = new  Intent(this, Action_navig.class);
+            startActivity(i);
+        }
+
+        if (id == R.id.action_my_ads) {
+            Intent i = new  Intent(this, Action_my_ads.class);
+            startActivity(i);
+        }
+
+        if (id == R.id.action_my_favprite) {
+            Intent i = new  Intent(this, Action_my_favorite.class);
+            startActivity(i);
+        }
+
+        if (id == R.id.action_lav) {
+            Intent i = new  Intent(this, Lav.class);
+            startActivity(i);
+        }
+
+        if (id == R.id.action_add_ad) {
+            Intent i = new  Intent(this, Action_my_ads.class);
+            startActivity(i);
+        }
+
+        if (id == R.id.nav_settings) {
+            Intent i = new  Intent(this, Nav_settings.class);
+            startActivity(i);
+        }
+
+
+       DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerLayout.closeDrawer(GravityCompat.START);
         return true;
 
     }
-
-
-
-
 }

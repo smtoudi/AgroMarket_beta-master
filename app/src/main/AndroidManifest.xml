@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppThemeNoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".drawer.Lav" />
+        <activity android:name=".drawer.Action_navig" />
+        <activity android:name=".drawer.Nav_add_frend" />
+        <activity android:name=".drawer.Action_message" />
+        <activity android:name=".drawer.Action_my_ads" />
+        <activity android:name=".drawer.Action_my_favorite" />
+        <activity android:name=".drawer.Action_add_ad" />
+        <activity android:name=".drawer.Nav_settings"></activity>
     </application>
 
 </manifest>

@@ -39,6 +39,12 @@
         app:showAsAction="never"/>
 
     <item
+    android:id="@+id/action_lav"
+    android:title="@string/lav"
+    android:icon="@drawable/ic_work_white_24dp"
+    app:showAsAction="never"/>
+
+    <item
         android:id="@+id/action_add_ad"
         android:title="@string/add_ad"
         android:icon="@drawable/ic_add_ad_white_24dp"

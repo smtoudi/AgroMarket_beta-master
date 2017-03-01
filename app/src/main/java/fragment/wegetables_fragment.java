@@ -1,4 +1,4 @@
-package com.example.slawomirmakurat.agromarket;
+package fragment;
 
 
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.app.Fragment;
+
+import com.example.slawomirmakurat.agromarket.R;
 
 
 public class wegetables_fragment extends Fragment {

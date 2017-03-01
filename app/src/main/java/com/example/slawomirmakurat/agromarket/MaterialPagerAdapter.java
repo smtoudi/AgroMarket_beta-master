@@ -5,6 +5,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import fragment.fish_meet_fragment;
+import fragment.fruits_fragment;
+import fragment.homemade_preserves_fragment;
+import fragment.services_fragment;
+import fragment.wegetables_fragment;
+
 /**
  * Created by slawomir.makurat on 2017-02-21.
  */
