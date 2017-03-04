@@ -10,7 +10,7 @@
         android:id="@+id/action_create_account"
         android:title="@string/create_account"
         android:icon="@drawable/ic_person_add_white_24dp"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

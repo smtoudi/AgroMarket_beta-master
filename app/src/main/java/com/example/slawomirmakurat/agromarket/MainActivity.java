@@ -22,12 +22,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.slawomirmakurat.agromarket.drawer.Action_my_ads;
-import com.example.slawomirmakurat.agromarket.drawer.Action_my_favorite;
-import com.example.slawomirmakurat.agromarket.drawer.Action_navig;
-import com.example.slawomirmakurat.agromarket.drawer.Lav;
-import com.example.slawomirmakurat.agromarket.drawer.Nav_add_frend;
-import com.example.slawomirmakurat.agromarket.drawer.Nav_settings;
+import com.example.slawomirmakurat.agromarket.User.LoginActivity;
+import com.example.slawomirmakurat.agromarket.drawer.DrawerMyAds;
+import com.example.slawomirmakurat.agromarket.drawer.DrawerMyFavorite;
+import com.example.slawomirmakurat.agromarket.drawer.DrawerNavig;
+import com.example.slawomirmakurat.agromarket.drawer.DrawerLav;
+import com.example.slawomirmakurat.agromarket.drawer.DrawerAddFrend;
+import com.example.slawomirmakurat.agromarket.drawer.DrawerSettings;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -131,6 +132,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.action_settings:
                 Snackbar.make(drawer, R.string.some_settings, Snackbar.LENGTH_SHORT).show();
                 break;
+            case R.id.action_create_account:
+                Intent i = new  Intent(this, LoginActivity.class);
+                startActivity(i);;
+
         }
         return super.onOptionsItemSelected(item);
     }
@@ -150,41 +155,41 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         if (id == R.id.action_navig) {
-            Intent i = new  Intent(this, Action_navig.class);
+            Intent i = new  Intent(this, DrawerNavig.class);
             startActivity(i);
         }
 
         if (id == R.id.nav_add_frend) {
-            Intent i = new  Intent(this, Nav_add_frend.class);
+            Intent i = new  Intent(this, DrawerAddFrend.class);
             startActivity(i);
         }
         if (id == R.id.action_message) {
-            Intent i = new  Intent(this, Action_navig.class);
+            Intent i = new  Intent(this, DrawerNavig.class);
             startActivity(i);
         }
 
         if (id == R.id.action_my_ads) {
-            Intent i = new  Intent(this, Action_my_ads.class);
+            Intent i = new  Intent(this, DrawerMyAds.class);
             startActivity(i);
         }
 
         if (id == R.id.action_my_favprite) {
-            Intent i = new  Intent(this, Action_my_favorite.class);
+            Intent i = new  Intent(this, DrawerMyFavorite.class);
             startActivity(i);
         }
 
         if (id == R.id.action_lav) {
-            Intent i = new  Intent(this, Lav.class);
+            Intent i = new  Intent(this, DrawerLav.class);
             startActivity(i);
         }
 
         if (id == R.id.action_add_ad) {
-            Intent i = new  Intent(this, Action_my_ads.class);
+            Intent i = new  Intent(this, DrawerMyAds.class);
             startActivity(i);
         }
 
         if (id == R.id.nav_settings) {
-            Intent i = new  Intent(this, Nav_settings.class);
+            Intent i = new  Intent(this, DrawerSettings.class);
             startActivity(i);
         }
 

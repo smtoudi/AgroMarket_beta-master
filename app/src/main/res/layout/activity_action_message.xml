@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.slawomirmakurat.agromarket.drawer.Action_message">
+    tools:context="com.example.slawomirmakurat.agromarket.drawer.DrawerMessage">
 
     <TextView
         android:text="aplikcja do komunikacji może cos wstylu whatup ? "

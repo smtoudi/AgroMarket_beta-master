@@ -17,7 +17,7 @@
     <string name="user_full_name">Imię</string>
     <string name="some_action">\"Jakaś akcja</string>
     <string name="undo">Cofnij</string>
-    <string name="email">Wyślij emial</string>
+    <string name="email">Podaj emial</string>
     <string name="create_account">Załóż konto</string>
     <string name="action_settings">Ustawienia</string>
     <string name="send_email">Wyślij emial</string>
@@ -36,5 +36,33 @@
     <string name="nav_category_other">Inne</string>
     <string name="action_share_frend">Zaproś znajomych</string>
     <string name="lav">Prawo</string>
+    <string name="title_activity_login">"Zaloguj "</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="password">Hasło</string>
+    <string name="about">Anuluj</string>
+    <string name="login">Zaloguj</string>
+    <string name="empty_email_error">To pole nie może być puste</string>
+    <string name="empty_password_error">To pole nie może być puste</string>
+    <string name="account_created">Konto zostało żałożone</string>
+    <string name="RegisterUser">Dodaj nowego użykownika</string>
+    <string name="email_reg">Email</string>
+    <string name="user_name_reg">Adres e-mail</string>
+    <string name="register">Zarejestruj</string>
+    <string name="password2">Powtórz hasło</string>
+    <string name="postcode">Kod pocztowy</string>
+    <string name="fab_user_facebook">Zaloguj za pomocą FaceBook</string>
+    <string name="fab_user_google">Zaloguj za pomocą google</string>
 
 </resources>

@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.example.slawomirmakurat.agromarket.R;
 
-public class Action_navig extends Activity {
+public class DrawerMyFavorite extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_action_navig);
+        setContentView(R.layout.activity_action_my_favprite);
     }
 }

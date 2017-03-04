@@ -5,11 +5,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import fragment.fish_meet_fragment;
-import fragment.fruits_fragment;
-import fragment.homemade_preserves_fragment;
-import fragment.services_fragment;
-import fragment.wegetables_fragment;
+import fragment.FishAndMeetFragment;
+import fragment.FruitsFragment;
+import fragment.HomemadePreservesFragment;
+import fragment.ServicesFragment;
+import fragment.WegetablesFragment;
 
 /**
  * Created by slawomir.makurat on 2017-02-21.
@@ -28,15 +28,15 @@ public class MaterialPagerAdapter  extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new wegetables_fragment();
+                return new WegetablesFragment();
             case 1:
-                return new fruits_fragment();
+                return new FruitsFragment();
             case 2:
-                return new homemade_preserves_fragment();
+                return new HomemadePreservesFragment();
             case 3:
-                return new fish_meet_fragment();
+                return new FishAndMeetFragment();
             case 4:
-                return new services_fragment();
+                return new ServicesFragment();
         }
 
         return null;
