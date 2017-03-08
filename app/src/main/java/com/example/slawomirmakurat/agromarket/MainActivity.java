@@ -23,6 +23,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.slawomirmakurat.agromarket.User.LoginActivity;
+import com.example.slawomirmakurat.agromarket.drawer.DrawerAddAd;
 import com.example.slawomirmakurat.agromarket.drawer.DrawerMyAds;
 import com.example.slawomirmakurat.agromarket.drawer.DrawerMyFavorite;
 import com.example.slawomirmakurat.agromarket.drawer.DrawerNavig;
@@ -184,7 +185,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         if (id == R.id.action_add_ad) {
-            Intent i = new  Intent(this, DrawerMyAds.class);
+            Intent i = new  Intent(this, DrawerAddAd.class);
             startActivity(i);
         }
 

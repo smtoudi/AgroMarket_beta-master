@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_action_add_ad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.slawomirmakurat.agromarket.drawer.DrawerAddAd"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:scrollbarStyle="outsideInset">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/camera_imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                android:scaleType="fitCenter"
+                android:background="#e2e2e2"
+                app:srcCompat="@android:drawable/ic_menu_camera" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Spinner
+                android:id="@+id/spinner_category"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/titleAd_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Tytuł"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/textAd_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Opis"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/seeAd_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zobacz ogłoszenie przed dodaniem" />
+
+            <Button
+                android:id="@+id/addd_Ad_button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dodaj ogłoszenie" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
