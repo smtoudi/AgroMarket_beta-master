@@ -64,5 +64,6 @@
     <string name="postcode">Kod pocztowy</string>
     <string name="fab_user_facebook">Zaloguj za pomocą FaceBook</string>
     <string name="fab_user_google">Zaloguj za pomocą google</string>
+    <string name="search_title">Szukaj</string>
 
 </resources>
