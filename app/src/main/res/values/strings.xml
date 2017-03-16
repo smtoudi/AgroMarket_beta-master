@@ -88,6 +88,8 @@
 
     <string name="nav_open">open</string>
     <string name="nav_close">close</string>
+    <string name="number_phone">Numer telefonu</string>
+    <string name="user_full_name_login">Login</string>
 
 
 </resources>
