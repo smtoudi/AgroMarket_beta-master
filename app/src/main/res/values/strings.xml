@@ -11,22 +11,18 @@
     <string name="homemade_preserves">Przetwory domowe</string>
     <string name="fish_meet">Ryby i Mięso</string>
     <string name="services">Usługi</string>
-    <string name="nav_open">Otwórz nawigację</string>
-    <string name="nav_close">Zamknij nawigację</string>
-    <string name="user_email">e-mail</string>
-    <string name="user_full_name">Imię</string>
-    <string name="some_action">\"Jakaś akcja</string>
-    <string name="undo">Cofnij</string>
-    <string name="email">Podaj emial</string>
-    <string name="create_account">Załóż konto</string>
-    <string name="action_settings">Ustawienia</string>
-    <string name="send_email">Wyślij emial</string>
-    <string name="some_settings">Kiedyś będzie tutaj jakas akcja</string>
-    <string name="title_activity_nawigation">nawigation</string>
 
+    <string-array name="fragments">
+        <item>Warzywa</item>
+        <item>Owoce</item>
+        <item>Przetwory domowe</item>
+        <item>Ryby i Mięso</item>
+        <item>Usługi</item>
+    </string-array>
+
+    <!-- DRAWER -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="Login">Zaloguj się</string>
     <string name="home">AgroMarket</string>
     <string name="message">Wiadomości</string>
     <string name="ads">Moje ogłoszenia</string>
@@ -36,6 +32,25 @@
     <string name="nav_category_other">Inne</string>
     <string name="action_share_frend">Zaproś znajomych</string>
     <string name="lav">Prawo</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="send_email">Wyślij emial</string>
+
+    <!-- LOGIN -->
+
+    <string name="user_email">e-mail</string>
+    <string name="user_full_name">Imię</string>
+
+    <!-- REGISTER -->
+
+
+    <string name="email">Podaj emial</string>
+    <string name="create_account">Załóż konto</string>
+
+    <string name="some_settings">Kiedyś będzie tutaj jakas akcja</string>
+
+
+    <string name="Login">Zaloguj się</string>
+
     <string name="title_activity_login">"Zaloguj "</string>
 
     <!-- Strings related to login -->
@@ -65,5 +80,13 @@
     <string name="fab_user_facebook">Zaloguj za pomocą FaceBook</string>
     <string name="fab_user_google">Zaloguj za pomocą google</string>
     <string name="search_title">Szukaj</string>
+
+
+    <string name="some_action">\"Jakaś akcja</string>
+    <string name="undo">Cofnij</string>
+
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+
 
 </resources>

@@ -69,12 +69,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, string.some_action, Snackbar.LENGTH_LONG).setAction(string.undo, new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                    }
-                }).show();
+                Intent i = new Intent(getApplicationContext(), DrawerAddAd.class);
+                startActivity(i); {
+                };
             }
         });
 
@@ -116,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.action_create_account:
                 Intent i = new Intent(this, LoginActivity.class);
                 startActivity(i);
+                break;
 //            case R.id.search:
 //                Intent search = new Intent(this, SearchView.class);
 //                startActivity(search);
