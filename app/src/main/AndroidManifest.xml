@@ -18,7 +18,12 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <meta-data
+                    android:name="android.app.searchable"
+                    android:resource="@xml/searchable"></meta-data>
             </intent-filter>
+
+
         </activity>
         <activity android:name=".drawer.DrawerLav" />
         <activity android:name=".drawer.DrawerNavig" />
@@ -29,9 +34,6 @@
         <activity android:name=".drawer.DrawerAddAd" />
         <activity android:name=".drawer.DrawerSettings" />
         <activity android:name=".User.LoginActivity" />
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
         <activity android:name=".User.RegisterActivity"></activity>
     </application>
 

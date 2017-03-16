@@ -3,25 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/search"
-        android:actionViewClass="android.widget.SearchView"
         android:icon="@drawable/ic_search_white_24dp"
         android:title="@string/search_title"
-        app:showAsAction="collapseActionView|ifRoom" />
-    <item
-        android:id="@+id/action_share1"
-        android:title="@string/action_share_frend"
-        android:icon="@drawable/ic_menu_share"
-        app:showAsAction="never" />
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
     <item
         android:id="@+id/action_share"
-        android:title="@string/action_share_frend"
         android:icon="@drawable/ic_menu_share"
-        app:showAsAction="always" />
+        android:title="@string/action_share_frend"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom|collapseActionView" />
     <item
         android:id="@+id/action_create_account"
-        android:title="@string/create_account"
         android:icon="@drawable/ic_person_add_white_24dp"
-        app:showAsAction="ifRoom" />
+        android:title="@string/create_account"
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

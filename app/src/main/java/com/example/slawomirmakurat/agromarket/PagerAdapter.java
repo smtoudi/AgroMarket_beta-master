@@ -15,11 +15,11 @@ import fragment.WegetablesFragment;
  * Created by slawomir.makurat on 2017-02-21.
  */
 
-public class MaterialPagerAdapter  extends FragmentPagerAdapter {
+public class PagerAdapter extends FragmentPagerAdapter {
 
     private Context context;
 
-    public MaterialPagerAdapter(Context context, FragmentManager fm) {
+    public PagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         this.context = context;
     }
