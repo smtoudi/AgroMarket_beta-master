@@ -43,6 +43,40 @@
                 android:layout_height="35dp"
                 android:spinnerMode="dialog" />
 
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dostępność"
+                android:textSize="18dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sezon" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cały rok" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pytaj" />
+            </RadioGroup>
+
             <EditText
                 android:id="@+id/titleAd_editText"
                 android:layout_width="match_parent"
@@ -60,6 +94,29 @@
                 android:hint="Opis"
                 android:inputType="textMultiLine" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Opakowanie"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Opis opakowania"
+                    android:inputType="text"
+                    android:layout_weight="0.41" />
+            </LinearLayout>
+
             <Button
                 android:id="@+id/seeAd_button"
                 android:layout_width="match_parent"
@@ -74,4 +131,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>

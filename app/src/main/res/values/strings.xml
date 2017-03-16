@@ -13,6 +13,7 @@
     <string name="services">Usługi</string>
 
     <string-array name="fragments">
+        <item>Wybierz sekcję</item>
         <item>Warzywa</item>
         <item>Owoce</item>
         <item>Przetwory domowe</item>
