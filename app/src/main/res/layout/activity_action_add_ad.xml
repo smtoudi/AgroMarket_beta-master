@@ -77,6 +77,11 @@
                     android:text="Pytaj" />
             </RadioGroup>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
             <EditText
                 android:id="@+id/titleAd_editText"
                 android:layout_width="match_parent"
@@ -89,7 +94,7 @@
             <EditText
                 android:id="@+id/textAd_editText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="86dp"
                 android:ems="10"
                 android:hint="Opis"
                 android:inputType="textMultiLine" />
@@ -115,6 +120,7 @@
                     android:hint="Opis opakowania"
                     android:inputType="text"
                     android:layout_weight="0.41" />
+
             </LinearLayout>
 
             <Button
