@@ -1,70 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:paddingBottom="0dp"
+    android:paddingEnd="0dp"
+    android:paddingRight="16dp"
+    android:paddingStart="0dp"
+    android:paddingTop="0dp"
+    android:weightSum="1">
 
 
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            app:srcCompat="@mipmap/ic_launcher"
-            tools:layout_editor_absoluteX="291dp"
-            tools:layout_editor_absoluteY="258dp" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Urzytkownik"
-            tools:layout_editor_absoluteX="64dp"
-            tools:layout_editor_absoluteY="321dp" />
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:text="Tytuł"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="258dp" />
+                <TextView
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="Tytuł"
+                    android:textSize="16dp" />
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="275dp"
-            android:layout_height="31dp"
-            android:text="Którki opis ograniczony ilościa znaków np do 200"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="277dp" />
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bg_drawer" />
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Odległość"
-            tools:layout_editor_absoluteX="161dp"
-            tools:layout_editor_absoluteY="321dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="więcej"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="321dp" />
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Urzytkownik    "
+                            android:textSize="12dp" />
 
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="20km"
-            tools:layout_editor_absoluteX="241dp"
-            tools:layout_editor_absoluteY="321dp" />
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Miejscowość        "
+                            android:textSize="12dp" />
 
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="    Odległość"
+                            android:textAlignment="textEnd"
+                            android:textSize="12dp" />
 
+                </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+</LinearLayout>
