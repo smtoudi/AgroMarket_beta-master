@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <data>
-
-        <variable
-            name="movie"
-            type="com.example.slawomirmakurat.agromarket.addCard.Movie" />
-    </data>
-
     <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.myhexaville.immersiveapp.DetailsActivity">
+        tools:context="com.example.slawomirmakurat.agromarket.drawer.DrawerSettings">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
 
             <android.support.design.widget.CollapsingToolbarLayout
                 android:id="@+id/collapsing_toolbar"
@@ -214,14 +203,14 @@
                                 android:weightSum="1">
 
                                 <TextView
-                                    android:id="@+id/textView26"
+                                    android:id="@+id/textView261"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="0.34"
                                     android:text="Dosepność " />
 
                                 <TextView
-                                    android:id="@+id/textView28"
+                                    android:id="@+id/textView282"
                                     android:layout_width="93dp"
                                     android:layout_height="wrap_content"
                                     android:text="sezon" />
@@ -236,17 +225,18 @@
                                 android:weightSum="1">
 
                                 <TextView
-                                    android:id="@+id/textView26"
+                                    android:id="@+id/textView2636"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="0.15"
                                     android:text="Możliwość dostawy" />
 
                                 <TextView
-                                    android:id="@+id/textView28"
+                                    android:id="@+id/textView2814"
                                     android:layout_width="93dp"
                                     android:layout_height="wrap_content"
-                                    android:text="tak/nie" />
+                                    android:text="tak/nie"
+                                    android:layout_weight="0.00" />
 
                             </LinearLayout>
 
@@ -258,23 +248,24 @@
                                 android:weightSum="1">
 
                                 <TextView
-                                    android:id="@+id/textView26"
+                                    android:id="@+id/textView2615"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="0.38"
                                     android:text="Opakowanie" />
 
                                 <TextView
-                                    android:id="@+id/textView28"
-                                    android:layout_width="93dp"
+                                    android:id="@+id/textView2854"
+                                    android:layout_width="90dp"
                                     android:layout_height="wrap_content"
-                                    android:text="dedykowane" />
+                                    android:text="dedykowane"
+                                    android:layout_weight="0.06" />
 
                                 <TextView
                                     android:id="@+id/textView32"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_weight="0.15"
+                                    android:layout_weight="0.20"
                                     android:text="20" />
 
                                 <TextView
@@ -318,7 +309,8 @@
                                 android:id="@+id/textView35"
                                 android:layout_width="28dp"
                                 android:layout_height="wrap_content"
-                                android:text="20" />
+                                android:text="20"
+                                android:layout_weight="0.30" />
 
                             <TextView
                                 android:id="@+id/textView36"
@@ -396,4 +388,4 @@
             android:layout_height="90dp"
             android:layout_gravity="bottom" />
     </android.support.design.widget.CoordinatorLayout>
-</layout>
+
