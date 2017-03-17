@@ -31,4 +31,6 @@ android {
 
 
         compile 'com.android.support.constraint:constraint-layout:1.0.2'
+        compile 'com.google.android.gms:play-services-ads:10.2.0'
+        compile 'com.google.android.gms:play-services-maps:10.2.0'
     }
