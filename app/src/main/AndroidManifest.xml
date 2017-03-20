@@ -18,9 +18,9 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-                <meta-data
-                    android:name="android.app.searchable"
-                    android:resource="@xml/searchable"></meta-data>
+                <!--<meta-data-->
+                    <!--android:name="android.app.searchable"-->
+                    <!--android:resource="@xml/searchable"></meta-data>-->
             </intent-filter>
 
 

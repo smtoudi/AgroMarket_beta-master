@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AgroMarket_beta-master.iml" filepath="$PROJECT_DIR$/AgroMarket_beta-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AgroMarket_beta-master.iml" filepath="$PROJECT_DIR$/AgroMarket_beta-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AgroMarket_beta-master17.iml" filepath="$PROJECT_DIR$/AgroMarket_beta-master17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

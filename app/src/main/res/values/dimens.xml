@@ -7,4 +7,6 @@
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="default_elevation">4dp</dimen>
+    <dimen name="details_activity_bottom_margin">16dp</dimen>
+    <dimen name="navigation_bar_height">48dp</dimen>
 </resources>

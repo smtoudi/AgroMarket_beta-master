@@ -7,118 +7,12 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.slawomirmakurat.agromarket.fragment.wegetables_fragment">
+    tools:context="fragment.WegetablesFragment">
 
-    <LinearLayout
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_recycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/card_view5"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_margin="8dp"
-            android:clickable="true"
-            android:elevation="8dp"
-            android:foreground="@drawable/ripple_background"
-            android:stateListAnimator="@animator/elevation_raise"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:cardCornerRadius="2dp">
-
-
-            <include
-                layout="@layout/show_add_card"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/card_view4"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_margin="8dp"
-            android:clickable="true"
-            android:elevation="8dp"
-            android:foreground="@drawable/ripple_background"
-            android:stateListAnimator="@animator/elevation_raise"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:cardCornerRadius="2dp">
-
-
-            <include
-                layout="@layout/show_add_card"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/card_view3"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_margin="8dp"
-            android:clickable="true"
-            android:elevation="8dp"
-            android:foreground="@drawable/ripple_background"
-            android:stateListAnimator="@animator/elevation_raise"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:cardCornerRadius="2dp">
-
-
-            <include
-            layout="@layout/show_add_card"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-        android:id="@+id/card_view"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_margin="8dp"
-        android:clickable="true"
-        android:elevation="8dp"
-        android:foreground="@drawable/ripple_background"
-        android:stateListAnimator="@animator/elevation_raise"
-        app:cardBackgroundColor="@color/cardview_light_background"
-        app:cardCornerRadius="2dp">
-
-
-            <include
-                layout="@layout/show_add_card"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-    </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/card_view1"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_margin="8dp"
-            android:clickable="true"
-            android:elevation="8dp"
-            android:foreground="@drawable/ripple_background"
-            android:stateListAnimator="@animator/elevation_raise"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:cardCornerRadius="2dp">
-
-
-            <include
-                layout="@layout/show_add_card"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-        </android.support.v7.widget.CardView>
-
-
-
-    </LinearLayout>
-
-
+        android:layout_height="wrap_content" />
 </android.support.v4.widget.NestedScrollView>
 
