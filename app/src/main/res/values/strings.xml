@@ -1,4 +1,95 @@
 <resources>
-    <string name="app_name">FirebaseDemos</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">AgroMarket</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- FRAGMENTY -->
+    <string name="wegetables">Warzywa</string>
+    <string name="fruits">Owoce</string>
+    <string name="homemade_preserves">Przetwory domowe</string>
+    <string name="fish_meet">Ryby i Mięso</string>
+    <string name="services">Usługi</string>
+
+    <string-array name="fragments">
+        <item>Wybierz sekcję</item>
+        <item>Warzywa</item>
+        <item>Owoce</item>
+        <item>Przetwory domowe</item>
+        <item>Ryby i Mięso</item>
+        <item>Usługi</item>
+    </string-array>
+
+    <!-- DRAWER -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">AgroMarket</string>
+    <string name="message">Wiadomości</string>
+    <string name="ads">Moje ogłoszenia</string>
+    <string name="favprite">Ulubione</string>
+    <string name="nsvig">W mojej okolicy</string>
+    <string name="add_ad">Dodaj ogłoszenie</string>
+    <string name="nav_category_other">Inne</string>
+    <string name="action_share_frend">Zaproś znajomych</string>
+    <string name="lav">Prawo</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="send_email">Wyślij emial</string>
+
+    <!-- LOGIN -->
+
+    <string name="user_email">e-mail</string>
+    <string name="user_full_name">Imię</string>
+
+    <!-- REGISTER -->
+
+
+    <string name="email">Podaj emial</string>
+    <string name="create_account">Załóż konto</string>
+
+    <string name="some_settings">Kiedyś będzie tutaj jakas akcja</string>
+
+
+    <string name="Login">Zaloguj się</string>
+
+    <string name="title_activity_login">"Zaloguj "</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="password">Hasło</string>
+    <string name="about">Anuluj</string>
+    <string name="login">Zaloguj</string>
+    <string name="empty_email_error">To pole nie może być puste</string>
+    <string name="empty_password_error">To pole nie może być puste</string>
+    <string name="account_created">Konto zostało żałożone</string>
+    <string name="RegisterUser">Dodaj nowego użykownika</string>
+    <string name="email_reg">Email</string>
+    <string name="user_name_reg">Adres e-mail</string>
+    <string name="register">Zarejestruj</string>
+    <string name="password2">Powtórz hasło</string>
+    <string name="postcode">Kod pocztowy</string>
+    <string name="fab_user_facebook">Zaloguj za pomocą FaceBook</string>
+    <string name="fab_user_google">Zaloguj za pomocą google</string>
+    <string name="search_title">Szukaj</string>
+
+
+    <string name="some_action">\"Jakaś akcja</string>
+    <string name="undo">Cofnij</string>
+
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string name="number_phone">Numer telefonu</string>
+    <string name="user_full_name_login">Login</string>
+
+
 </resources>
