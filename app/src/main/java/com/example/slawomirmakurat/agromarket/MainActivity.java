@@ -25,7 +25,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.slawomirmakurat.agromarket.User.LoginActivity;
+import com.example.slawomirmakurat.agromarket.user.LoginActivity;
 import com.example.slawomirmakurat.agromarket.drawer.DrawerAddAd;
 import com.example.slawomirmakurat.agromarket.drawer.DrawerMyAds;
 import com.example.slawomirmakurat.agromarket.drawer.DrawerMyFavorite;
@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(layout.activity_main);
-
 
         toolbar = (Toolbar) findViewById(id.toolbar);
         setSupportActionBar(toolbar);

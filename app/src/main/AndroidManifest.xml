@@ -33,8 +33,8 @@
         <activity android:name=".drawer.DrawerMyFavorite" />
         <activity android:name=".drawer.DrawerAddAd" />
         <activity android:name=".drawer.DrawerSettings" />
-        <activity android:name=".User.LoginActivity" />
-        <activity android:name=".User.RegisterActivity"></activity>
+        <activity android:name=".user.LoginActivity" />
+        <activity android:name=".user.RegisterActivity"></activity>
     </application>
 
 </manifest>

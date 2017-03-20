@@ -1,6 +1,5 @@
-package com.example.slawomirmakurat.agromarket.User;
+package com.example.slawomirmakurat.agromarket.user;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
